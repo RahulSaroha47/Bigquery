@@ -1,4 +1,4 @@
-module read-write-bq-api
+module github.com/RahulSaroha47/Bigquery
 
 go 1.17
 
