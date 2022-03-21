@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"csvutils"
 	"bqutils"
+	"csvutils"
 
+	"github.com/gin-gonic/gin"
 )
 
 func InsertDatatoBqTable(c *gin.Context) {

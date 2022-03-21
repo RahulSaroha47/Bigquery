@@ -3,14 +3,14 @@ module bqutils
 go 1.17
 
 require (
-	cloud.google.com/go/bigquery v1.29.0
+	cloud.google.com/go/bigquery v1.30.0
 	google.golang.org/api v0.73.0
 )
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
-	cloud.google.com/go/iam v0.1.1 // indirect
+	cloud.google.com/go/iam v0.3.0 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.7 // indirect

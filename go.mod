@@ -1,4 +1,4 @@
-module read-write-bq-api
+module github.com/RahulSaroha47/Bigquery
 
 go 1.17
 
@@ -10,9 +10,9 @@ require (
 require (
 	bqutils v0.0.0-00010101000000-000000000000 // indirect
 	cloud.google.com/go v0.100.2 // indirect
-	cloud.google.com/go/bigquery v1.29.0 // indirect
+	cloud.google.com/go/bigquery v1.30.0 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
-	cloud.google.com/go/iam v0.1.1 // indirect
+	cloud.google.com/go/iam v0.3.0 // indirect
 	csvutils v0.0.0-00010101000000-000000000000 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
@@ -41,10 +41,11 @@ require (
 	google.golang.org/grpc v1.45.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
+
 )
 
-replace handlers => /Users/pokkt/Golang-poc/read-write-bq-api/handlers
-
-replace csvutils => /Users/pokkt/Golang-poc/read-write-bq-api/csvutils
-
-replace bqutils => /Users/pokkt/Golang-poc/read-write-bq-api/bqutils
+replace (
+	bqutils => /Users/pokkt/Golang-poc/read-write-bq-api/bqutils
+	csvutils => /Users/pokkt/Golang-poc/read-write-bq-api/csvutils
+	handlers => /Users/pokkt/Golang-poc/read-write-bq-api/handlers
+)

@@ -3,7 +3,7 @@ module handlers
 go 1.17
 
 require (
-	cloud.google.com/go/bigquery v1.29.0
+	cloud.google.com/go/bigquery v1.30.0
 	github.com/gin-gonic/gin v1.7.7
 	google.golang.org/api v0.73.0
 )
@@ -11,7 +11,7 @@ require (
 require (
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
-	cloud.google.com/go/iam v0.1.1 // indirect
+	cloud.google.com/go/iam v0.3.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
